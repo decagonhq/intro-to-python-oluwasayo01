@@ -16,4 +16,11 @@ It states Objects of a superclass shall be replaceable with objects of its sub c
 #### Interface Segregation Principle
 Clients should not be forced to  depend upon interfaces that they do not use The goal of this principle is to reduce the side effects and frequency of required changes by splitting the software into multiple independent parts.  
 #### Dependency Inversion Principle
-High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. In order for this to be achieved, one needs to introduce an abstraction that decouples the high-level and low-level modules from each other.
+High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. In order for this to be achieved, one needs to introduce an abstraction that decouples the high-level and low-level modules from each other.  
+## Data types Categorization
+| Mutable   | Immutable     |
+|---------- |---------------|
+|  List         |     Tuple (Immutable list)         |
+|  Dictionary        |     Character string          |
+|  Byte array      |  Numbers             |
+|   Set     |   Frozen-set(Immutable sets)            |
